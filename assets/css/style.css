@@ -150,5 +150,10 @@ button {
     font-size: 400%;
   }
 }
+@media (max-width: 375px) {
+  .title {
+    font-size: 300% !important;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
