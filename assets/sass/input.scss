@@ -101,6 +101,16 @@ button {
     &_Div_2 {
         @include flex(end);
         gap:$s;
+        &_1
+        {
+            background-color: $primary-color;
+            color: $secondary-color;
+        }
+        &_2
+        {
+            display: flex;
+            gap:$xs;
+        }
     }
 
 }

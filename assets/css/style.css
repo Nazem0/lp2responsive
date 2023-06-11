@@ -84,6 +84,14 @@ button {
   align-items: center;
   gap: 1rem;
 }
+#Header_Div_2_1 {
+  background-color: #1F4D36;
+  color: white;
+}
+#Header_Div_2_2 {
+  display: flex;
+  gap: 0.5rem;
+}
 
 #section_2 {
   color: white;
