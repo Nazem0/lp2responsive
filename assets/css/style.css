@@ -145,5 +145,10 @@ button {
     grid-template-columns: 1fr !important;
   }
 }
+@media (max-width: 425px) {
+  .title {
+    font-size: 400%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
