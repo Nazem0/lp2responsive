@@ -91,6 +91,7 @@ button {
 #Header_Div_2_2 {
   display: flex;
   gap: 0.5rem;
+  align-items: center;
 }
 
 #section_2 {
