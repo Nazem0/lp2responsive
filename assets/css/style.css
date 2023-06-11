@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "GT Super Display";
+  src: url("../font/GT-Super-Display-Medium-Trial.otf");
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../font/TT Commons Regular.otf");
+}
+* {
+  font-family: "TT Commons";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 1rem;
+  border: 1px solid;
+  border-radius: 2.5rem;
+  background-color: transparent;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+#bar {
+  background-color: #1F4D36;
+  color: white;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+#Hero_Section {
+  color: #1F4D36;
+  background-color: #F2F4EA;
+}
+
+#Menu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+}
+#Menu div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title {
+  font-family: "GT Super Display";
+  font-size: 600%;
+}
+
+#Header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#Header div {
+  margin: 1rem;
+}
+#Header #Description {
+  font-size: 1.7rem;
+}
+#Header_Div_2 {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+#section_2 {
+  color: white;
+  padding: 2.5rem;
+  background-color: #1F4D36;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#section_2 #Conditions {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  padding: 5rem;
+}
+#section_2 #Conditions div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+#section_2 #Conditions div div {
+  height: 70%;
+}
+#section_2 .title {
+  font-size: 400%;
+}
+
+@media (max-width: 1200px) {
+  #Header_Div_2 > img {
+    display: none;
+  }
+  #Header {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 875px) {
+  #Conditions {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+@media (max-width: 640px) {
+  #navbar_items {
+    display: none !important;
+  }
+  #Conditions {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
